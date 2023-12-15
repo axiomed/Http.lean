@@ -1,2 +1,5 @@
-def main : IO Unit :=
-  IO.println s!"Hello, wordl!"
+import «Tests».Data.Headers
+import «Tests».Framework
+
+def main : IO Unit := do
+  run headersTests

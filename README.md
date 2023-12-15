@@ -1,5 +1,7 @@
 # Http.lean
 
+[![CI](https://github.com/axiomed/Http.lean/actions/workflows/push.yml/badge.svg)](https://github.com/axiomed/Http.lean/actions/workflows/push.yml)
+
 A WIP implementation of HTTP protocol in [Lean 4](https://github.com/leanprover/lean4).
 
 ## The Goal
@@ -23,4 +25,4 @@ require Http from git "https://github.com/axiomed/Http.lean.git"
 
 ## Acknowledgements
 
-This library is based on work @algebraic-sofia has done for her
+This library is based on work [@algebraic-sofia](https://github.com/algebraic-sofia) has done for [her Rhina de Backends](https://blog.codeminer42.com/overcoming-challenges-and-crafting-in-the-uncharted-territory-of-lean4/) challenge.

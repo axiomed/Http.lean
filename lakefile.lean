@@ -7,6 +7,9 @@ package «Http» where
 lean_lib «Http» where
   -- add library configuration options here
 
+lean_lib «Tests» where
+  -- add library configuration options here
+
 lean_exe «tests» where
   root := `Tests
   supportInterpreter := true
